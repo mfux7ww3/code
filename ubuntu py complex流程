@@ -1,0 +1,26 @@
+1.ubuntu 18.04下载  desktop 可以安装未分区。其他dell ausu安装失败dell无反应，ausa apt错误 //F2进入 bios，黑色128g u盘， u盘启动工具在desktop。16Gu盘里是32位，14.04。安装公司dell成功。
+2.在华为云镜像下载16.06，u盘安装工具用的ultroiso在ausa。安装dell desktop和ausu成功。
+3.在dell laptop,14.04升级16.04 update manager -c -d。成功。安装pycharm,官网下载，./bin/.sh运行安装。
+出现java包未安装问题。sudo 安装java包，成功安装pycharm.
+4.git 安装，
+sudo apt-get install git 
+git config --global user.name "你的用户名"
+git config --global user.email "你的注册邮箱"
+
+ssh-keygen -C "你的注册邮箱" -t rsa  在github setting里粘贴。
+
+git clone http://
+git add test.c
+git commit -m "this is a test"
+
+git push -u origin master
+
+5.python 安装pip, 在pycharm file setting里 设置查找matplot, networkx ,pip3 install tkinter
+解决pip install networkx失败
+
+打开终端，
+输入cmd，
+输入pip install -i https://pypi.tuna.tsinghua.edu.cn/simple networkx
+等待直至完成
+
+默认pip3对应python3,pip 对应python2.7
