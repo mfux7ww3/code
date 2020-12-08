@@ -24,3 +24,25 @@ git push -u origin master
 等待直至完成
 
 默认pip3对应python3,pip 对应python2.7
+
+https://pypi.douban.com/simple
+
+https://pypi.tuna.tsinghua.edu.cn/simple/        pycharm清华镜像库  file setting ,python interpreter,+
+
+
+ImportError: No module named '_tkinter', please install the python3-tk package
+
+先更新包，命令：sudo apt-get update
+
+然后：sudo apt-get install python3-tk
+
+提示还没有'_tkinter'，这时只要把python3修改成对应的python版本号，
+
+比如我的是python3.6.5，重新输入sudo apt-get install python3.6-tk，即可
+
+
+
+
+
+
+
